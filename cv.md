@@ -2,7 +2,7 @@
 
 ***Full-stack developer, Team Leader***
 
-**Telegram: [FabulouS01](https://t.me/FabulouS01) | E-mail: 145042@students.ssau.ru**
+**Telegram: [FabulouS01](https://t.me/FabulouS01)** | **E-mail: 145042@students.ssau.ru**
 
 **Russia, Samara**
 
