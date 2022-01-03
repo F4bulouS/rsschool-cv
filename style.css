@@ -1,3 +1,65 @@
-.hello {
-    color: red;
+html {
+  scroll-padding-top: 4rem;
 }
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.header-container {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 3rem;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(44, 40, 40);
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #04aa6d;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+.photo {
+  display: block;
+  border-radius: 100px;
+  border: 1px solid #0a0c0900;
+  box-shadow: 0 0 25px #666;
+  margin: 0px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
