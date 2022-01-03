@@ -1,9 +1,10 @@
-htlm {
+html {
   scroll-padding-top: 4rem;
 }
 
-body {
-  margin: 0;
+.wrapper {
+  margin: auto;
+  width: 80%;
 }
 
 .header-container {
@@ -29,7 +30,7 @@ ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 16px;
   text-decoration: none;
 }
 
@@ -45,9 +46,20 @@ ul.topnav li.right {
   float: right;
 }
 
+.photo {
+  display: block;
+  border-radius: 100px;
+  border: 1px solid #0a0c0900;
+  box-shadow: 0 0 25px #666;
+  margin: 0px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
   ul.topnav li {
     float: none;
   }
 }
+
