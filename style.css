@@ -7,6 +7,29 @@ html {
   width: 80%;
 }
 
+h1 {
+  text-align: center;
+}
+
+#name {
+  color: rgb(151, 37, 37);
+}
+
+#position-one {
+  font-weight: 400;
+  color: rgb(22, 35, 151);
+}
+
+#position-two {
+  font-weight: 200;
+  color: rgb(81, 8, 95);
+}
+
+#location {
+  font-style: italic;
+  font-size: 18px;
+}
+
 .header-container {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -38,10 +61,6 @@ ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
 
-ul.topnav li a.active {
-  background-color: #04aa6d;
-}
-
 ul.topnav li.right {
   float: right;
 }
@@ -63,3 +82,16 @@ ul.topnav li.right {
   }
 }
 
+#home, #experience, #skills, #languages {
+  background-color: rgba(0, 255, 255, 0.178);
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#about, #education, #code, #contacts {
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
